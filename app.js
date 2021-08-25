@@ -14,7 +14,7 @@ function updateProductNumber(product, isIncreasing, price) {
     // calculate total
     calculateTotal();
 }
-// handle case increase decrease events
+// handle phone increase decrease events
 document.getElementById('phone-plus').addEventListener('click', function () {
     updateProductNumber('phone', true, 1219);
 })
